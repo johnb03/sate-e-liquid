@@ -8,3 +8,11 @@
 
 /* linear gradient from tilte rgba(0,245,150,100% --- 0,217,245,100%) 
 * color hover for nav #F5DE0B */
+
+/* .asset-bg {
+  width: 500px;
+  height: 500px;
+  background: linear-gradient(90deg, #f77f00, rgba(247, 127, 0, 0.5));
+  border-radius: 100%;
+  filter: blur(40px);
+} */
