@@ -5,6 +5,10 @@
   --color-melocoton: #ffc168;
   --color-naranja: #f77f00;
 }
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;600&family=Permanent+Marker&display=swap");
+/* 
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Permanent Marker', cursive; */
 
 /* linear gradient from tilte rgba(0,245,150,100% --- 0,217,245,100%) 
 * color hover for nav #F5DE0B */
@@ -16,3 +20,12 @@
   border-radius: 100%;
   filter: blur(40px);
 } */
+
+*,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat Alternates", sans-serif;
+}

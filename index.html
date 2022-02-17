@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
+    <link rel="stylesheet" href="/css/navbar.css" />
+    <link rel="stylesheet" href="/css/normalize.css" />
     <link rel="stylesheet" href="/css/style.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,27 +12,27 @@
   <body>
     <div class="contairner">
       <header class="welcome">
-        <nav class="main-nav">
-          <ul class="main-nav__list">
-            <li class="main-nav__item">
-              <a href="#" class="main-nav__link">Contacto</a>
-            </li>
-            <li class="main-nav__item">
-              <a href="#productos" class="main-nav__link">Productos</a>
-            </li>
-            <li class="main-nav__item">
-              <a href="#" class="main-nav__link">Acerca de</a>
-            </li>
+        <nav>
+          <a href="#">
+            <img src="/image/logo sate small.png" alt="logo" class="logo" />
+          </a>
+          <ul class="enlaces-menu">
+            <li><a href="">inicio</a></li>
+            <li><a href="">Productos</a></li>
+            <li><a href="">Contacto</a></li>
           </ul>
+          <button class="ham" type="button">
+            <span class="br-1"></span>
+            <span class="br-2"></span>
+            <span class="br-3"></span>
+          </button>
         </nav>
-        <img
-          src="/image/logo-sate-blanco 2.png"
-          alt="logo sate"
-          class="welcome__logo"
-        />
         <p class="welcome__text-1">Vape de experience</p>
         <h2 class="welcome__text-2 color-gradient">And test the flavor</h2>
       </header>
+
+      <script src="main.js"></script>
+
       <section id="productos" class="liquids-info">
         <article class="liquid__descrip">
           <h2 class="liquid__perf">
@@ -57,6 +59,13 @@
           />
         </article>
         <article class="cata-orange">
+          <header class="cata-text text__champagne">
+            <h2 class="cata__title">Champange Naranja</h2>
+            <p class="cata__paraph">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Doloremque, laboriosam!
+            </p>
+          </header>
           <div class="cata-box cata-orange">
             <div class="asset-bg asset-orange"></div>
             <img
@@ -72,6 +81,13 @@
           </div>
 
           <div class="cata-box cata-pina">
+            <header class="cata-text text__pina-cola">
+              <h2 class="cata__title">Pina Colada</h2>
+              <p class="cata__paraph">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Doloremque, laboriosam!
+              </p>
+            </header>
             <div class="asset-bg asset-pina"></div>
             <img
               src="/image/pina-colada.png"
@@ -86,6 +102,13 @@
           </div>
 
           <div class="cata-box cata-manzana">
+            <header class="cata-text text__manzana">
+              <h2 class="cata__title">Manzana Verde</h2>
+              <p class="cata__paraph">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Doloremque, laboriosam!
+              </p>
+            </header>
             <div class="asset-bg asset-manzana"></div>
             <img
               src="/image/manzan.png"
@@ -100,6 +123,13 @@
           </div>
 
           <div class="cata-box cata-fresa">
+            <header class="cata-text text__mango-f">
+              <h2 class="cata__title">Mango Fresa</h2>
+              <p class="cata__paraph">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Doloremque, laboriosam!
+              </p>
+            </header>
             <div class="asset-bg asset-fresa"></div>
             <img src="/image/fresa.png" alt="liquid fresa" class="img__fresa" />
             <img
@@ -110,6 +140,13 @@
           </div>
 
           <div class="cata-box cata__melocoton">
+            <header class="cata-text text__melocoton">
+              <h2 class="cata__title">Melocoton</h2>
+              <p class="cata__paraph">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Doloremque, laboriosam!
+              </p>
+            </header>
             <div class="asset-bg asset__melocoton"></div>
             <img
               src="/image/melocoton.png"
@@ -131,30 +168,10 @@
             <div class="contacts__box">
               <div class="contact__seller">
                 <img
-                  src="/image/image-hero.jpg"
+                  src="/image/seller-1.jpg"
                   height="200px"
-                  alt="employe"
+                  alt="seller"
                   class="contact-hero"
-                />
-                <p>Lorem, ipsum.</p>
-                <p>Seller</p>
-              </div>
-              <div class="contact__seller">
-                <img
-                  src="/image/image-hero.jpg"
-                  height="200px"
-                  alt="employe"
-                  class="contact-hero"
-                />
-                <p>Lorem, ipsum.</p>
-                <p>Seller</p>
-              </div>
-              <div class="contact__seller">
-                <img
-                  src="/image/image-hero.jpg"
-                  height="200px"
-                  alt="employe"
-                  class="contact__hero"
                 />
                 <p>Lorem, ipsum.</p>
                 <p>Seller</p>
