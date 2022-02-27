@@ -4,7 +4,46 @@
   --color-manzana: #0e5b2a;
   --color-melocoton: #ffc168;
   --color-naranja: #f77f00;
+  --color-fresa: #780000;
+  --background-radial-orange: radial-gradient(
+    44.77% 44.77% at 50% 50%,
+    #fecc00 0%,
+    rgba(254, 204, 0, 0) 100%
+  );
+  --background-radial-pina: radial-gradient(
+    44.77% 44.77% at 50% 50%,
+    #feed00 50.69%,
+    rgba(254, 237, 0, 0) 100%
+  );
+  --background-radial-manzana: radial-gradient(
+    44.77% 44.77% at 50% 50%,
+    rgba(14, 91, 42, 0.4) 0%,
+    rgba(199, 244, 12, 0) 100%
+  );
+  --background-radial-fresa: radial-gradient(
+    44.77% 44.77% at 50% 50%,
+    #780000 0%,
+    rgba(217, 4, 41, 0) 100%
+  );
+  --background-radial-melocoton: radial-gradient(
+    44.77% 44.77% at 50% 50%,
+    #f6e166 0%,
+    #ffc168 100%
+  );
 }
+/* Tipografia reponsiva */
+/* @link https://utopia.fyi/type/calculator?c=320,21,1.2,1600,24,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l */
+:root {
+  --step--2: clamp(0.91rem, 0.9rem + 0.06vw, 0.96rem);
+  --step--1: clamp(1.09rem, 1.07rem + 0.13vw, 1.2rem);
+  --step-0: clamp(1.31rem, 1.27rem + 0.23vw, 1.5rem);
+  --step-1: clamp(1.58rem, 1.5rem + 0.38vw, 1.88rem);
+  --step-2: clamp(1.89rem, 1.78rem + 0.57vw, 2.34rem);
+  --step-3: clamp(2.27rem, 2.1rem + 0.83vw, 2.93rem);
+  --step-4: clamp(2.72rem, 2.49rem + 1.18vw, 3.66rem);
+  --step-5: clamp(3.27rem, 2.94rem + 1.64vw, 4.58rem);
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;600&family=Permanent+Marker&display=swap");
 /* 
 font-family: 'Montserrat Alternates', sans-serif;
@@ -21,11 +60,13 @@ font-family: 'Permanent Marker', cursive; */
   filter: blur(40px);
 } */
 
-*,
-*::before {
+html {
   box-sizing: border-box;
+  font-family: "Montserrat Alternates", sans-serif;
 }
 
-html {
-  font-family: "Montserrat Alternates", sans-serif;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }

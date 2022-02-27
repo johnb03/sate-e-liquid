@@ -1,5 +1,9 @@
 /* tamanos de media queries
+xsm -- extra small 390px(24.375em  )
 *sm -- small-- 480px(30em) 
 * md -- medium -- 768px(48em)
 * lg -- large-- 992px(62em) 
 * xl -- extra large --1200px(75em)*/
+
+@media (min-width: 24.375em) {
+}
