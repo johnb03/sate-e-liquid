@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Sansita+Swashed&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="/css/main.css" />
     <link rel="stylesheet" href="/css/navbar.css" />
     <link rel="stylesheet" href="/css/normalize.css" />
@@ -22,7 +29,7 @@
           <li><a href="#inicio">Inicio</a></li>
           <li><a href="#spec">Espec</a></li>
           <li><a href="#productos">Productos</a></li>
-          <li><a href="#contacts">Contacto</a></li>
+          <li><a href="#footer-contacts">Contacto</a></li>
         </ul>
         <button class="ham" type="button">
           <span class="br-1"></span>
@@ -68,13 +75,122 @@
       </div>
     </section>
 
+    <!-- cata de productos -->
+    <section id="productos" class="cata cata__orange cata__scroll">
+      <div class="cata-text cata-text__left">
+        <h2 class="cata__title color__title">Champagne Naranja</h2>
+        <p class="cata-text__subtitle color__subtitle">
+          Una deliciosa y refrescante mezcla de champán con naranja roja y notas
+          cítricas efervescentes, satisfacción garantizada.
+        </p>
+      </div>
+
+      <div class="hero-liquid">
+        <figure class="hero__img bg-orange">
+          <img
+            src="/image/naranja.png"
+            alt="liquido naranja"
+            class="img__liquid img-liquid__orange"
+          />
+        </figure>
+      </div>
+    </section>
+
+    <!-- pina-colada -->
+    <section class="cata cata__pina-col cata__scroll">
+      <div class="cata-text cata-text__right">
+        <h2 class="cata__title">Pina Colada</h2>
+        <p class="cata-text__subtitle">
+          Piña Colada sedosa refrescante y suave para vapear 24/7, Siente el
+          contundente poder del coco y la sutil nota de la piña acompañada de
+          una suave crema con un toque refrescante.
+        </p>
+      </div>
+
+      <div class="hero-liquid">
+        <figure class="hero__img">
+          <img
+            src="/image/pina-colada.png"
+            alt="liquido pina-colada"
+            class="img__liquid bg-pina"
+          />
+        </figure>
+      </div>
+    </section>
+
+    <!-- manzana--- -->
+    <section class="cata cata__manzana cata__scroll">
+      <div class="cata-text cata-text__left">
+        <h2 class="cata__title color__text">Cidra de Manzana</h2>
+        <p class="cata-text__subtitle color__text">
+          Refrescante y efervescente Cidra de Manzanas verdes con notas de
+          frambuesa azul, aroma intenso e intuitivo.
+        </p>
+      </div>
+
+      <div class="hero-liquid">
+        <figure class="hero__img">
+          <img
+            src="/image/manzan.png"
+            alt="liquido manzana"
+            class="img__liquid bg-manzana"
+          />
+        </figure>
+      </div>
+    </section>
+
+    <!-- mango fresa--- -->
+    <section class="cata cata__fresa cata__scroll">
+      <div class="cata-text cata-text__right">
+        <h2 class="cata__title color__text">Mango Strawberry Passion</h2>
+        <p class="cata-text__subtitle color__text">
+          Es una deliciosa y Refrescante combinación de
+          frutas perfectamente equilibrada, que deja sentir la Fresa y el mango
+          con un sutil toque de maracuya fría.
+        </p>
+      </div>
+
+      <div class="hero-liquid">
+        <figure class="hero__img">
+          <img
+            src="/image/fresa.png"
+            alt="liquido fresa"
+            class="img__liquid bg-fresa"
+          />
+        </figure>
+      </div>
+    </section>
+
+    <!-- melocoton-- -->
+    <section class="cata cata__melocoton cata__scroll">
+      <div class="cata-text cata-text__left">
+        <h2 class="cata__title">Melocoton</h2>
+        <p class="cata-text__subtitle">
+          Uno de los sabores más aclamados de la familia Sate, Melocotón 🍑Mango
+          Siente la frescura tropical del Mango acompañado
+          de un sutil sabor a Melocotón on ice.
+        </p>
+      </div>
+
+      <div class="hero-liquid">
+        <figure class="hero__img">
+          <img
+            src="/image/melocoton.png"
+            alt="liquido fresa"
+            class="img__liquid bg-melocoton"
+          />
+        </figure>
+      </div>
+    </section>
+
     <!-- products info -->
     <section id="spec" class="info-product">
       <div class="info">
         <div class="info__left">
           <h2 class="info-text__1 line">Packaging</h2>
           <p class="info-text__2 line">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ipsa?
+            <spam>Chubby gorilla anti-leak:</spam> Tapa Diseño delgado, cómodo y
+            fácil de viajar.
           </p>
           <picture class="info-img__logo">
             <img
@@ -95,138 +211,20 @@
         </div>
         <div class="info__right">
           <p class="info-text__3 line">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-            exercitationem tempore aspernatur placeat voluptatibus ut similique
-            debitis perferendis qui commodi?
+            <spam>Easy-Pour:</spam> punta estrecha de goteo para dispensar sin
+            derrames. Prueba de presión sellada para máxima durabilidad.
           </p>
           <p class="info-text__4 line">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor vel
-            ipsa temporibus accusamus saepe et beatae quia ducimus voluptas
-            nihil!
+            <spam>Grabado con insignia de GORILLA:</spam> insignia patentada
+            como sello de calidad absoluta. Diseñado en California, EE. UU.
           </p>
           <div class="info__line line__right-2"></div>
         </div>
       </div>
     </section>
-
-    <!-- cata de productos -->
-    <section id="productos" class="cata cata__orange cata__scroll">
-      <div class="cata-text cata-text__left ">
-        <h2 class="cata__title color__title">Champagne Naranja</h2>
-        <p class="cata-text__subtitle color__subtitle">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam suscipit
-          pariatur et aliquam nisi, porro asperiores accusamus quis ullam quod?
-          At blanditiis dolorum inventore illum non laboriosam tempore commodi
-          nostrum.
-        </p>
-      </div>
-
-      <div class="hero-liquid">
-        <figure class="hero__img bg-orange">
-          <img
-            src="/image/naranja.png"
-            alt="liquido naranja"
-            class="img__liquid img-liquid__orange"
-          />
-        </figure>
-      </div>
-    </section>
-
-    <!-- pina-colada -->
-    <section class="cata cata__pina-col cata__scroll">
-      <div class="cata-text cata-text__right">
-        <h2 class="cata__title ">Pina Colada</h2>
-        <p class="cata-text__subtitle ">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam suscipit
-          pariatur et aliquam nisi, porro asperiores accusamus quis ullam quod?
-          At blanditiis dolorum inventore illum non laboriosam tempore commodi
-          nostrum.
-        </p>
-      </div>
-
-      <div class="hero-liquid">
-        <figure class="hero__img ">
-          <img
-            src="/image/pina-colada.png"
-            alt="liquido pina-colada"
-            class="img__liquid bg-pina"
-          />
-        </figure>
-      </div>
-    </section>
-
-    <!-- manzana--- -->
-    <section class="cata cata__manzana cata__scroll">
-      <div class="cata-text cata-text__left">
-        <h2 class="cata__title color__text">Cidra de Manzana</h2>
-        <p class="cata-text__subtitle color__text">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam suscipit
-          pariatur et aliquam nisi, porro asperiores accusamus quis ullam quod?
-          At blanditiis dolorum inventore illum non laboriosam tempore commodi
-          nostrum.
-        </p>
-      </div>
-
-      <div class="hero-liquid">
-        <figure class="hero__img ">
-          <img
-            src="/image/manzan.png"
-            alt="liquido manzana"
-            class="img__liquid bg-manzana"
-          />
-        </figure>
-      </div>
-    </section>
-
-    <!-- mango fresa--- -->
-    <section class="cata cata__fresa cata__scroll">
-      <div class="cata-text cata-text__right">
-        <h2 class="cata__title color__text">Mango Fresa</h2>
-        <p class="cata-text__subtitle color__text">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam suscipit
-          pariatur et aliquam nisi, porro asperiores accusamus quis ullam quod?
-          At blanditiis dolorum inventore illum non laboriosam tempore commodi
-          nostrum.
-        </p>
-      </div>
-
-      <div class="hero-liquid">
-        <figure class="hero__img ">
-          <img
-            src="/image/fresa.png"
-            alt="liquido fresa"
-            class="img__liquid bg-fresa"
-          />
-        </figure>
-      </div>
-    </section>
-
-    <!-- melocoton-- -->
-    <section class="cata cata__melocoton cata__scroll">
-      <div class="cata-text cata-text__left">
-        <h2 class="cata__title ">Melocoton</h2>
-        <p class="cata-text__subtitle ">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam suscipit
-          pariatur et aliquam nisi, porro asperiores accusamus quis ullam quod?
-          At blanditiis dolorum inventore illum non laboriosam tempore commodi
-          nostrum.
-        </p>
-      </div>
-
-      <div class="hero-liquid">
-        <figure class="hero__img ">
-          <img
-            src="/image/melocoton.png"
-            alt="liquido fresa"
-            class="img__liquid bg-melocoton"
-          />
-        </figure>
-      </div>
-    </section>
     <!-- footer -->
-    <footer id="foter-contacts" class="footer__contact">
-      <div class="contact"> 
-
+    <footer id="footer-contacts" class="footer__contact">
+      <div class="contact">
         <div class="footer__left">
           <div class="info-seller">
             <div class="seller-datos">
