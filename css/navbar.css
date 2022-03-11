@@ -1,3 +1,9 @@
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
 .logo-nav {
   margin: 5px 0 0 30px;
   width: 65px;
@@ -14,7 +20,7 @@
 nav {
   display: flex;
   align-items: center;
-  height: 13vh;
+  height: 10vh;
   justify-content: space-between;
   padding: 0;
   min-height: 8vh;

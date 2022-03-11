@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <!-- <link rel="stylesheet" href="/css/navbar.css" /> -->
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/navbar.css" />
     <link rel="stylesheet" href="/css/normalize.css" />
-    <link rel="stylesheet" href="/css/mobile.css" />
-    <link rel="stylesheet" href="/css/style.css" />
+    <script src="/js/scrollreveal.js"></script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Sate E-liquid</title>
   </head>
 
   <body>
+    <!-- navbar -->
     <header class="nav">
       <nav class="main-nav">
         <a href="#">
           <img src="/image/logo-sate-small.svg" alt="logo" class="logo-nav" />
         </a>
         <ul class="enlaces-menu">
-          <li><a href="">inicio</a></li>
-          <li><a href="">Productos</a></li>
-          <li><a href="">Contacto</a></li>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#spec">Espec</a></li>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="#contacts">Contacto</a></li>
         </ul>
         <button class="ham" type="button">
           <span class="br-1"></span>
@@ -28,48 +30,60 @@
           <span class="br-3"></span>
         </button>
       </nav>
-      <script src="main.js"></script>
     </header>
     <!-- navbar -->
 
-    <div class="container">
-      <section id="inicio">
-        <div class="poster-box">
-          <div class="poster__image">
-            <figure class="poster__figure">
-              <img
-                src="/image/logo-sate-blanco 2.png"
-                alt="logo sate"
-                class="poster__logo"
-              />
-            </figure>
-          </div>
+    <!-- poster -->
 
-          <div class="poster__header">
-            <h3 class="poster__title">Vape de experience</h3>
-            <p class="poster__subtitle subtitle__gdnt">>And test the FLAVOR</p>
-          </div>
+    <section id="inicio" class="poster">
+      <div class="poster__video">
+        <video
+          src="/video/hero-video.mp4"
+          muted
+          loop
+          autoplay
+          type="video/mp4"
+          class="video__central"
+        ></video>
+      </div>
+
+      <div class="poster-box">
+        <div class="poster__image">
+          <figure class="poster__figure">
+            <img
+              src="/image/logo-sate-blanco 2.png"
+              alt="logo sate"
+              class="poster__logo"
+            />
+          </figure>
         </div>
-      </section>
 
-      <!-- poster -->
+        <div class="poster__header">
+          <h3 class="poster__title">Vape de experience</h3>
+          <p class="poster__subtitle subtitle__gdnt">And test the FLAVOR</p>
+          <button class="btn">
+            <a href="" class="btn-link">Taste</a>
+          </button>
+        </div>
+      </div>
+    </section>
 
-      <!-- informaciones de los productos -->
-
+    <!-- products info -->
+    <section id="spec" class="info-product">
       <div class="info">
-        <figure class="info-img__logo">
-          <img
-            src="/image/logo sate small.png"
-            alt="logo sate"
-            class="logo__small-n"
-          />
-        </figure>
-
         <div class="info__left">
-          <h2 class="info-text__1">Performance</h2>
-          <p class="info-text__2">Lorem ipsum dolor sit amet consectetur.</p>
+          <h2 class="info-text__1 line">Packaging</h2>
+          <p class="info-text__2 line">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ipsa?
+          </p>
+          <picture class="info-img__logo">
+            <img
+              src="/image/logo sate small.png"
+              alt="logo sate"
+              class="logo__small-n"
+            />
+          </picture>
         </div>
-
         <div class="info__center">
           <figure class="img-center__product">
             <img
@@ -79,39 +93,202 @@
             />
           </figure>
         </div>
-
         <div class="info__right">
-          <p class="info-tex__3">Lorem ipsum dolor sit amet consectetur.</p>
-          <p class="info-text__4">Lorem ipsum dolor sit amet consectetur.</p>
+          <p class="info-text__3 line">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+            exercitationem tempore aspernatur placeat voluptatibus ut similique
+            debitis perferendis qui commodi?
+          </p>
+          <p class="info-text__4 line">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor vel
+            ipsa temporibus accusamus saepe et beatae quia ducimus voluptas
+            nihil!
+          </p>
+          <div class="info__line line__right-2"></div>
         </div>
       </div>
+    </section>
 
-      <!-- cata de productos -->
+    <!-- cata de productos -->
+    <section id="productos" class="cata cata__orange cata__scroll">
+      <div class="cata-text cata-text__left ">
+        <h2 class="cata__title color__title">Champagne Naranja</h2>
+        <p class="cata-text__subtitle color__subtitle">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam suscipit
+          pariatur et aliquam nisi, porro asperiores accusamus quis ullam quod?
+          At blanditiis dolorum inventore illum non laboriosam tempore commodi
+          nostrum.
+        </p>
+      </div>
 
-      <section id="productos">
-        <div class="cata">
-          <div class="cata-text__left">
-            <h2 class="cata__title">Champagne Naranja</h2>
-            <p class="cata-text__subtitle">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam
-              suscipit pariatur et aliquam nisi, porro asperiores accusamus quis
-              ullam quod? At blanditiis dolorum inventore illum non laboriosam
-              tempore commodi nostrum.
+      <div class="hero-liquid">
+        <figure class="hero__img bg-orange">
+          <img
+            src="/image/naranja.png"
+            alt="liquido naranja"
+            class="img__liquid img-liquid__orange"
+          />
+        </figure>
+      </div>
+    </section>
+
+    <!-- pina-colada -->
+    <section class="cata cata__pina-col cata__scroll">
+      <div class="cata-text cata-text__right">
+        <h2 class="cata__title ">Pina Colada</h2>
+        <p class="cata-text__subtitle ">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam suscipit
+          pariatur et aliquam nisi, porro asperiores accusamus quis ullam quod?
+          At blanditiis dolorum inventore illum non laboriosam tempore commodi
+          nostrum.
+        </p>
+      </div>
+
+      <div class="hero-liquid">
+        <figure class="hero__img ">
+          <img
+            src="/image/pina-colada.png"
+            alt="liquido pina-colada"
+            class="img__liquid bg-pina"
+          />
+        </figure>
+      </div>
+    </section>
+
+    <!-- manzana--- -->
+    <section class="cata cata__manzana cata__scroll">
+      <div class="cata-text cata-text__left">
+        <h2 class="cata__title color__text">Cidra de Manzana</h2>
+        <p class="cata-text__subtitle color__text">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam suscipit
+          pariatur et aliquam nisi, porro asperiores accusamus quis ullam quod?
+          At blanditiis dolorum inventore illum non laboriosam tempore commodi
+          nostrum.
+        </p>
+      </div>
+
+      <div class="hero-liquid">
+        <figure class="hero__img ">
+          <img
+            src="/image/manzan.png"
+            alt="liquido manzana"
+            class="img__liquid bg-manzana"
+          />
+        </figure>
+      </div>
+    </section>
+
+    <!-- mango fresa--- -->
+    <section class="cata cata__fresa cata__scroll">
+      <div class="cata-text cata-text__right">
+        <h2 class="cata__title color__text">Mango Fresa</h2>
+        <p class="cata-text__subtitle color__text">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam suscipit
+          pariatur et aliquam nisi, porro asperiores accusamus quis ullam quod?
+          At blanditiis dolorum inventore illum non laboriosam tempore commodi
+          nostrum.
+        </p>
+      </div>
+
+      <div class="hero-liquid">
+        <figure class="hero__img ">
+          <img
+            src="/image/fresa.png"
+            alt="liquido fresa"
+            class="img__liquid bg-fresa"
+          />
+        </figure>
+      </div>
+    </section>
+
+    <!-- melocoton-- -->
+    <section class="cata cata__melocoton cata__scroll">
+      <div class="cata-text cata-text__left">
+        <h2 class="cata__title ">Melocoton</h2>
+        <p class="cata-text__subtitle ">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam suscipit
+          pariatur et aliquam nisi, porro asperiores accusamus quis ullam quod?
+          At blanditiis dolorum inventore illum non laboriosam tempore commodi
+          nostrum.
+        </p>
+      </div>
+
+      <div class="hero-liquid">
+        <figure class="hero__img ">
+          <img
+            src="/image/melocoton.png"
+            alt="liquido fresa"
+            class="img__liquid bg-melocoton"
+          />
+        </figure>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer id="foter-contacts" class="footer__contact">
+      <div class="contact"> 
+
+        <div class="footer__left">
+          <div class="info-seller">
+            <div class="seller-datos">
+              <div class="info-seller__img"></div>
+              <a href="#" class="info-seller__link">
+                <img
+                  src="/image/bxl-whatsapp.svg"
+                  alt="image whatsap"
+                  class="info-seller__icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="seller-text">
+            <p class="seller-text__p">
+              Sirvase usted de contactanos libremente, para cualquier
+              informacion del producto o distribucion del mismo.
             </p>
           </div>
-
-          <div class="hero-liquid">
-            <figure class="hero__img">
-              <img
-                src="/image/naranja.png"
-                alt="liquido naranja"
-                class="hero__img-orange"
-              />
-            </figure>
-            <div class="elipse elipse__orange"></div>
+          <div class="footer-logo">
+            <img src="/image/logo-sate-small.svg" alt="" class="sate__logo-w" />
+            <p class="footer__text">All reserved</p>
           </div>
         </div>
-      </section>
-    </div>
+        <div class="redes">
+          <div class="redes__center">
+            <h2 class="redes__title">Follow us</h2>
+            <picture class="img-redes">
+              <a href="#" class="redes-link">
+                <img
+                  src="/image/bxl-instagram.svg"
+                  alt="icono de instagram"
+                  class="img__instagram bgc"
+                />
+              </a>
+              <a href="#" class="redes-link">
+                <img
+                  src="/image/bxl-tiktok.svg"
+                  alt="icono de tiktok"
+                  class="img__tiktok bgc"
+                />
+              </a>
+              <a href="#" class="redes-link">
+                <img
+                  src="/image/bxl-youtube.svg"
+                  alt="icono de youtube"
+                  class="img__youtube bgc"
+                />
+              </a>
+            </picture>
+          </div>
+        </div>
+        <picture class="footer-hero">
+          <img
+            src="/image/footer-hero.png"
+            alt="imagen man vape"
+            class="footer-hero__img"
+          />
+        </picture>
+      </div>
+    </footer>
   </body>
+  <script src="/js/main.js"></script>
+  <script src="/js/index.js"></script>
 </html>
