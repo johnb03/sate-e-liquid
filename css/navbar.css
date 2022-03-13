@@ -106,6 +106,7 @@ nav {
     padding: 0;
     width: 100%;
     display: none;
+    background: black;
     opacity: 0;
   }
 

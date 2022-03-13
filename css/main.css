@@ -331,6 +331,17 @@ html {
   line-height: 2rem;
 }
 
+.footer__text {
+  width: 300px;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.sate2020 {
+  font-weight: bold;
+  color: rgb(250, 177, 6);
+}
+
 .footer-hero__img {
   width: 100%;
   height: auto;
@@ -406,7 +417,7 @@ xsm -- extra small 390px(24.375em  )
 
 @media (min-width: 62em) {
   .poster-box {
-    height: 700px;
+    height: 100vh;
     justify-content: flex-start;
   }
   .poster__title {
@@ -420,12 +431,11 @@ xsm -- extra small 390px(24.375em  )
 
 @media (min-width: 75em) {
   .poster-box {
-    height: 100vh;
     text-align: left;
-    margin: 30px;
   }
+
   .poster__logo {
-    margin-top: 3rem;
+    margin-top: 4rem;
   }
 
   .poster__title {
@@ -504,7 +514,7 @@ xsm -- extra small 390px(24.375em  )
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     padding: 5rem;
     padding: 0;
   }
@@ -605,16 +615,22 @@ xsm -- extra small 390px(24.375em  )
     margin-left: 0.5rem;
     margin-bottom: 2rem;
   }
-
+  .footer-hero__img {
+    position: relative;
+    top: 3rem;
+  }
   .sate__logo-w {
     width: 35%;
     height: auto;
   }
-
+  .footer-logo {
+    width: 380px;
+  }
   .footer__text {
     font-size: var(--step--0);
-    line-height: 2.5rem;
-    margin: 0 0 0 25px;
+    line-height: 2rem;
+    margin: 0;
+    padding: 0;
   }
 
   .redes__center {
