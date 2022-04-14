@@ -101,7 +101,7 @@ html {
   margin: 0 0 10px;
   font-size: var(--step--1);
   text-transform: uppercase;
-  font-family: cursive;
+  font-family: "Times New Roman", Times, serif;
   font-weight: 700;
   background: #fdc830; /* fallback for old browsers */
   background: -webkit-linear-gradient(
