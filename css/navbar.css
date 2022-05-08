@@ -77,7 +77,7 @@ nav {
 @media (max-width: 768px) {
   .logo-nav {
     margin: 5px 0 0 10px;
-    width: 50px;
+    width: 45px;
     height: auto;
   }
   .ham {
@@ -118,7 +118,7 @@ nav {
   }
 }
 
-@media (min-width: 390px) {
+@media (min-width: 380px) {
   nav {
     width: 100%;
     padding: 5px;
