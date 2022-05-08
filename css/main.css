@@ -403,7 +403,7 @@ xsm -- extra small 390px(24.375em  )
 * lg -- large-- 992px(62em) 
 * xl -- extra large --1200px(75em)*/
 
-@media (min-width: 24.375em) {
+@media (min-width: 23.375em) {
   .poster {
     background-image: url(/image/wave-ego.svg);
     background-repeat: no-repeat;
